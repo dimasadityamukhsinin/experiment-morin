@@ -10,7 +10,6 @@ function App() {
       Render = Matter.Render,
       Runner = Matter.Runner,
       Composites = Matter.Composites,
-      Common = Matter.Common,
       MouseConstraint = Matter.MouseConstraint,
       Mouse = Matter.Mouse,
       Composite = Matter.Composite,
