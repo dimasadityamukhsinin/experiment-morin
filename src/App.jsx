@@ -95,7 +95,7 @@ function App() {
         stack.push(
           Composites.stack(
             scene.current.clientWidth / 6,
-            10,
+            -300,
             1,
             1,
             10,
@@ -113,7 +113,7 @@ function App() {
           ),
           Composites.stack(
             scene.current.clientWidth - scene.current.clientWidth / 5,
-            100,
+            -200,
             1,
             1,
             10,
@@ -131,7 +131,7 @@ function App() {
           ),
           Composites.stack(
             scene.current.clientWidth / 6,
-            200,
+            -100,
             1,
             1,
             10,
@@ -149,7 +149,7 @@ function App() {
           ),
           Composites.stack(
             scene.current.clientWidth - scene.current.clientWidth / 5,
-            300,
+            -300,
             1,
             1,
             10,
@@ -170,7 +170,7 @@ function App() {
         stack.push(
           Composites.stack(
             scene.current.clientWidth / 6 + 80,
-            0,
+            -400,
             1,
             1,
             10,
@@ -188,7 +188,7 @@ function App() {
           ),
           Composites.stack(
             scene.current.clientWidth - scene.current.clientWidth / 3 + 80,
-            100,
+            -300,
             1,
             1,
             10,
@@ -206,7 +206,7 @@ function App() {
           ),
           Composites.stack(
             scene.current.clientWidth / 6 + 80,
-            200,
+            -200,
             1,
             1,
             10,
@@ -224,7 +224,7 @@ function App() {
           ),
           Composites.stack(
             scene.current.clientWidth - scene.current.clientWidth / 3 + 80,
-            300,
+            -300,
             1,
             1,
             10,
@@ -245,7 +245,7 @@ function App() {
         stack.push(
           Composites.stack(
             scene.current.clientWidth / 6 + 80 * id,
-            0,
+            -500,
             1,
             1,
             10,
@@ -263,7 +263,7 @@ function App() {
           ),
           Composites.stack(
             scene.current.clientWidth - scene.current.clientWidth + 80 * id,
-            100,
+            -400,
             1,
             1,
             10,
@@ -281,7 +281,7 @@ function App() {
           ),
           Composites.stack(
             scene.current.clientWidth / 6 + 80 * id,
-            200,
+            -300,
             1,
             1,
             10,
@@ -299,7 +299,7 @@ function App() {
           ),
           Composites.stack(
             scene.current.clientWidth - scene.current.clientWidth + 80 * id,
-            300,
+            -300,
             1,
             1,
             10,
