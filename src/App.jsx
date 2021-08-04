@@ -76,7 +76,6 @@ function App() {
     const assets = [
       'Graphic_Element_Morin_apricot 1.svg',
       'Graphic_Element_Morin_apricot 2.svg',
-      'Graphic_Element_Morin_apricot 3.svg',
       'Graphic_Element_Morin_blueberry 1.svg',
       'Graphic_Element_Morin_blueberry 2.svg',
       'Graphic_Element_Morin_orange 1.svg',
@@ -85,7 +84,6 @@ function App() {
       'Graphic_Element_Morin_orange 4.svg',
       'Graphic_Element_Morin_raspberry 1.svg',
       'Graphic_Element_Morin_raspberry 2.svg',
-      'Graphic_Element_Morin_raspberry 3.svg',
     ]
 
     let stack = []
@@ -101,11 +99,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -119,11 +119,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -137,11 +139,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -155,11 +159,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -176,11 +182,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -194,11 +202,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -212,11 +222,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -230,11 +242,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -251,11 +265,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -269,11 +285,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -287,11 +305,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
@@ -305,11 +325,13 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 64, 64, {
+              return Bodies.circle(x, y, 55, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3
                   },
                 },
               })
