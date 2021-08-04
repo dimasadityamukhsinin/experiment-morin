@@ -105,7 +105,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
@@ -125,7 +125,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
@@ -145,7 +145,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
@@ -165,7 +165,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
@@ -188,7 +188,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
@@ -208,7 +208,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
@@ -228,7 +228,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
@@ -248,7 +248,93 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
+                  },
+                },
+              })
+            },
+          ),
+        )
+      } else if (
+        data === 'Graphic_Element_Morin_orange 3.svg' ||
+        data === 'Graphic_Element_Morin_orange 4.svg'
+      ) {
+        stack.push(
+          Composites.stack(
+            scene.current.clientWidth / 6 + 80 * id,
+            -500,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.rectangle(x, y, 55,120, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3,
+                  },
+                },
+              })
+            },
+          ),
+          Composites.stack(
+            scene.current.clientWidth - scene.current.clientWidth + 80 * id,
+            -400,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.rectangle(x, y, 55,120, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3,
+                  },
+                },
+              })
+            },
+          ),
+          Composites.stack(
+            scene.current.clientWidth / 6 + 80 * id,
+            -300,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.rectangle(x, y, 55,120, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3,
+                  },
+                },
+              })
+            },
+          ),
+          Composites.stack(
+            scene.current.clientWidth - scene.current.clientWidth + 80 * id,
+            -300,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.rectangle(x, y, 55,120, {
+                render: {
+                  strokeStyle: '#fff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.3,
+                    yScale: 1.3,
                   },
                 },
               })
@@ -271,7 +357,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
@@ -291,7 +377,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
@@ -311,7 +397,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
@@ -331,7 +417,7 @@ function App() {
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.3,
-                    yScale: 1.3
+                    yScale: 1.3,
                   },
                 },
               })
