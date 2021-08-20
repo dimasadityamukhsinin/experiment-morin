@@ -105,8 +105,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -125,8 +125,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -145,8 +145,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -165,8 +165,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -188,8 +188,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -208,8 +208,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -228,8 +228,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -248,8 +248,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -274,8 +274,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -294,8 +294,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -314,8 +314,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -334,8 +334,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -359,8 +359,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -379,8 +379,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -399,8 +399,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -419,8 +419,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -444,8 +444,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -464,8 +464,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -484,8 +484,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -504,8 +504,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -527,8 +527,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -547,8 +547,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -567,8 +567,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
@@ -587,8 +587,8 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.8,
-                    yScale: 1.8,
+                    xScale: 2,
+                    yScale: 2,
                   },
                 },
               })
