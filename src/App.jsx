@@ -24,10 +24,11 @@ function App() {
       element: scene.current,
       engine: engine,
       options: {
-        width: document.documentElement.clientWidth,
-        height: document.documentElement.clientHeight,
+        width: window.innerWidth,
+        height: window.innerHeight,
         showAngleIndicator: false,
         wireframes: false,
+        background: "white"
       },
     })
 
@@ -42,30 +43,33 @@ function App() {
     // these static walls will not be rendered in this sprites example, see options
     Composite.add(world, [
       Bodies.rectangle(
-        scene.current.clientWidth / 2,
-        scene.current.clientHeight + 30,
-        scene.current.clientWidth,
+        window.innerWidth / 2,
+        window.innerHeight,
+        window.innerWidth,
         60,
         {
           isStatic: true,
           label: 'Ground',
+          render: {
+            fillStyle: 'red',
+          }
         },
       ),
       Bodies.rectangle(
         -30,
-        scene.current.clientHeight / 2,
+        window.innerHeight / 2,
         60,
-        scene.current.clientHeight,
+        window.innerHeight,
         {
           isStatic: true,
           label: 'Wall Left',
         },
       ),
       Bodies.rectangle(
-        scene.current.clientWidth + 30,
-        scene.current.clientHeight / 2,
+        window.innerWidth + 30,
+        window.innerHeight / 2,
         60,
-        scene.current.clientHeight,
+        window.innerHeight,
         {
           isStatic: true,
           label: 'Wall Right',
@@ -92,80 +96,80 @@ function App() {
       if (id === 0) {
         stack.push(
           Composites.stack(
-            scene.current.clientWidth / 6,
+            window.innerWidth / 6,
             -300,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth - scene.current.clientWidth / 5,
+            window.innerWidth - window.innerWidth / 5,
             -200,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth / 6,
+            window.innerWidth / 6,
             -100,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth - scene.current.clientWidth / 5,
+            window.innerWidth - window.innerWidth / 5,
             -300,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
@@ -175,80 +179,80 @@ function App() {
       } else if (id === 1) {
         stack.push(
           Composites.stack(
-            scene.current.clientWidth / 6 + 80,
+            window.innerWidth / 6 + 80,
             -400,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth - scene.current.clientWidth / 3 + 80,
+            window.innerWidth - window.innerWidth / 3 + 80,
             -300,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth / 6 + 80,
+            window.innerWidth / 6 + 80,
             -200,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth - scene.current.clientWidth / 3 + 80,
+            window.innerWidth - window.innerWidth / 3 + 80,
             -300,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
@@ -261,7 +265,7 @@ function App() {
       ) {
         stack.push(
           Composites.stack(
-            scene.current.clientWidth / 6 + 80 * id,
+            window.innerWidth / 6 + 80 * id,
             -500,
             1,
             1,
@@ -273,15 +277,15 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth - scene.current.clientWidth + 80 * id,
+            window.innerWidth - window.innerWidth + 80 * id,
             -400,
             1,
             1,
@@ -293,15 +297,15 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth / 6 + 80 * id,
+            window.innerWidth / 6 + 80 * id,
             -300,
             1,
             1,
@@ -313,15 +317,15 @@ function App() {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth - scene.current.clientWidth + 80 * id,
+            window.innerWidth - window.innerWidth + 80 * id,
             -300,
             1,
             1,
@@ -333,8 +337,8 @@ function App() {
                   strokeStyle: '#fff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
@@ -344,80 +348,80 @@ function App() {
       } else {
         stack.push(
           Composites.stack(
-            scene.current.clientWidth / 6 + 80 * id,
+            window.innerWidth / 6 + 80 * id,
             -500,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth - scene.current.clientWidth + 80 * id,
+            window.innerWidth - window.innerWidth + 80 * id,
             -400,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth / 6 + 80 * id,
+            window.innerWidth / 6 + 80 * id,
             -300,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
             },
           ),
           Composites.stack(
-            scene.current.clientWidth - scene.current.clientWidth + 80 * id,
+            window.innerWidth - window.innerWidth + 80 * id,
             -300,
             1,
             1,
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 55, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
-                    xScale: 1.3,
-                    yScale: 1.3,
+                    xScale: 1.8,
+                    yScale: 1.8,
                   },
                 },
               })
