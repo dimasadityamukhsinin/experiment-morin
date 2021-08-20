@@ -100,7 +100,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -120,7 +120,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -140,7 +140,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -160,7 +160,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -183,7 +183,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -203,7 +203,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -223,7 +223,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -243,7 +243,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -269,7 +269,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -289,7 +289,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -309,7 +309,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -329,7 +329,177 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.8,
+                    yScale: 1.8,
+                  },
+                },
+              })
+            },
+          ),
+        )
+      } else if (
+        data === 'Graphic_Element_Morin_orange 1.svg'
+      ) {
+        stack.push(
+          Composites.stack(
+            window.innerWidth / 6 + 80 * id,
+            -500,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.circle(x, y, 100, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.8,
+                    yScale: 1.8,
+                  },
+                },
+              })
+            },
+          ),
+          Composites.stack(
+            window.innerWidth - window.innerWidth + 80 * id,
+            -400,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.circle(x, y, 100, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.8,
+                    yScale: 1.8,
+                  },
+                },
+              })
+            },
+          ),
+          Composites.stack(
+            window.innerWidth / 6 + 80 * id,
+            -300,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.circle(x, y, 100, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.8,
+                    yScale: 1.8,
+                  },
+                },
+              })
+            },
+          ),
+          Composites.stack(
+            window.innerWidth - window.innerWidth + 80 * id,
+            -300,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.circle(x, y, 100, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.8,
+                    yScale: 1.8,
+                  },
+                },
+              })
+            },
+          ),
+        )
+      } else if (
+        data === 'Graphic_Element_Morin_orange 2.svg'
+      ) {
+        stack.push(
+          Composites.stack(
+            window.innerWidth / 6 + 80 * id,
+            -500,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.circle(x, y, 115, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.8,
+                    yScale: 1.8,
+                  },
+                },
+              })
+            },
+          ),
+          Composites.stack(
+            window.innerWidth - window.innerWidth + 80 * id,
+            -400,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.circle(x, y, 115, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.8,
+                    yScale: 1.8,
+                  },
+                },
+              })
+            },
+          ),
+          Composites.stack(
+            window.innerWidth / 6 + 80 * id,
+            -300,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.circle(x, y, 115, {
+                render: {
+                  strokeStyle: '#ffffff',
+                  sprite: {
+                    texture: `./assets/${data}`,
+                    xScale: 1.8,
+                    yScale: 1.8,
+                  },
+                },
+              })
+            },
+          ),
+          Composites.stack(
+            window.innerWidth - window.innerWidth + 80 * id,
+            -300,
+            1,
+            1,
+            10,
+            10,
+            function (x, y) {
+              return Bodies.circle(x, y, 115, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -352,7 +522,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -372,7 +542,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -392,7 +562,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -412,7 +582,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 120, {
+              return Bodies.circle(x, y, 90, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
