@@ -100,7 +100,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -120,7 +120,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -140,7 +140,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -160,7 +160,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -183,7 +183,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -203,7 +203,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -223,7 +223,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -243,7 +243,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -269,7 +269,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -289,7 +289,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -309,7 +309,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -329,7 +329,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -352,7 +352,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -372,7 +372,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -392,7 +392,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -412,7 +412,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.circle(x, y, 100, {
+              return Bodies.circle(x, y, 120, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
