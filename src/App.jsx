@@ -44,15 +44,12 @@ function App() {
     Composite.add(world, [
       Bodies.rectangle(
         window.innerWidth / 2,
-        window.innerHeight,
+        window.innerHeight + 30,
         window.innerWidth,
         60,
         {
           isStatic: true,
           label: 'Ground',
-          render: {
-            fillStyle: 'red',
-          }
         },
       ),
       Bodies.rectangle(
@@ -272,7 +269,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 55,120, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -292,7 +289,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 55,120, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -312,7 +309,7 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 55,120, {
+              return Bodies.circle(x, y, 100, {
                 render: {
                   strokeStyle: '#ffffff',
                   sprite: {
@@ -332,9 +329,9 @@ function App() {
             10,
             10,
             function (x, y) {
-              return Bodies.rectangle(x, y, 55,120, {
+              return Bodies.circle(x, y, 100, {
                 render: {
-                  strokeStyle: '#fff',
+                  strokeStyle: '#ffffff',
                   sprite: {
                     texture: `./assets/${data}`,
                     xScale: 1.8,
