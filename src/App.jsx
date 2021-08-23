@@ -6,7 +6,6 @@ function App() {
   const scene = useRef()
 
   useEffect(() => {
-    const handleResize = () => {
       var Engine = Matter.Engine,
         Render = Matter.Render,
         Runner = Matter.Runner,
@@ -615,11 +614,6 @@ function App() {
 
       // keep the mouse in sync with rendering
       render.mouse = mouse
-    }
-
-    handleResize();
-
-    window.addEventListener('resize', handleResize)
   }, [])
   return <div ref={scene} />
 }
