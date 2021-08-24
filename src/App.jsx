@@ -56,7 +56,7 @@ function App() {
           -30,
           window.innerHeight / 2,
           60,
-          window.innerHeight * 2,
+          window.innerHeight * 3,
           {
             isStatic: true,
             label: 'Wall Left',
@@ -66,7 +66,7 @@ function App() {
           window.innerWidth + 30,
           window.innerHeight / 2,
           60,
-          window.innerHeight * 2,
+          window.innerHeight * 3,
           {
             isStatic: true,
             label: 'Wall Right',
